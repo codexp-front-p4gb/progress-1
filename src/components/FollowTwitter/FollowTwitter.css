@@ -1,0 +1,23 @@
+* {
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.followTwitter {
+    width: 100%;
+    padding: 40px;
+    background-color: #68D88A;
+    color: #FFF;
+    text-align: center;
+}
+
+.followTwitter a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.followTwitter a:visited {
+    color: #FFF;
+}

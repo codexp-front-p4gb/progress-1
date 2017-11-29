@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width:100%;
+    background: #f4f4f6;
+    
+}
+
+.bring-your-own-business__section{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+  
+    
+}
+
+.Bring-your-own-business{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    align-items: center;
+    padding-top: 10px;
+
+}
+
+.Bring-your-own-business__title{
+    padding-top:40px;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.Bring-your-own-business__img{
+    display: block;
+    width: 30%;            
+}
+
+.Bring-your-own-business__img-middle{
+    width: 60%;
+}
+
+
+.Bring-your-own-business__img-car{
+    width: 100%;
+    
+}
+.Bring-your-own-business__img-icon{
+    width: 100%;
+
+}
+
+@media (min-width:768px){
+
+    .Bring-your-own-business__title{
+        font-size: 65px;
+    }
+
+        
+
+}
+
+@media (min-width:992px){
+    .Bring-your-own-business__img{
+    display: flex;
+    flex-wrap:wrap;
+    width: 60%;
+    
+    }
+      
+
+    .Bring-your-own-business__img-icon{
+    width: 50%;
+    }
+
+}
