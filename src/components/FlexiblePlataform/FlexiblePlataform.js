@@ -1,5 +1,5 @@
 import React from "react";
-import "FlexiblePlataform.css"
+import "./FlexiblePlataform.css"
 
 export default (props) => (
     <section className="flexible-plataform">
