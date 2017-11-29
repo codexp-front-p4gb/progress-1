@@ -5,7 +5,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.follow-twitter {
+.followTwitter {
     width: 100%;
     padding: 40px;
     background-color: #68D88A;
@@ -13,11 +13,11 @@
     text-align: center;
 }
 
-.follow-twitter a {
+.followTwitter a {
     text-decoration: none;
     font-weight: bold;
 }
 
-.follow-twitter a:visited {
+.followTwitter a:visited {
     color: #FFF;
 }

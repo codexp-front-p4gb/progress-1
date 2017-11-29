@@ -1,9 +1,9 @@
 import React from "react";
-import "./Follow-twitter.css"
+import "./FollowTwitter.css"
 
 export default (props) => (
-    <div className="follow-twitter">
-        <p className="follow-twitter-paragraph">
+    <div className="followTwitter">
+        <p className="followTwitterParagraph">
             Follow along on Twitter for all the latest news! <a href="">@Progress_App</a>
         </p>
     </div>
