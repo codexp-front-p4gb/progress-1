@@ -24,8 +24,8 @@ export default (props) => (
                 </div>
 
             </div>
-        
-                <div className="feature feature-reverse">
+                  <div className="feature feature-reverse">
+                    
                     <figure className="feature__picture">
                         <img src={Extrato} alt="Extrato contrato"/>
                     </figure>

@@ -79,7 +79,7 @@ body {
         align-items: center;
     }
 
-    .feature-reverse picture {
+    .feature-reverse figure {
         order: 2;
     }
 
