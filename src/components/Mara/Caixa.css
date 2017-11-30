@@ -1,0 +1,42 @@
+.tabela-de-precos{
+    background: #ffffff;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    text-align: right;
+}
+.item-tabela-de-precos{
+    padding: 0 10px;
+    box-sizing: border-box;
+    color: black;
+}
+.item-tabela-de-precos:first-child{
+    text-align: left;
+}
+.item-titulo-tabela-de-precos{
+    color: #cdcdcd;
+}
+
+.tabela-de-totais{
+    background: #ffffff;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin-left: 25.5%;
+    
+}
+.titulo, .valor{
+    padding: 0 10px;
+    box-sizing: border-box;
+    color: black;
+}
+.titulo-total, .valor-total{
+    font-size: 25px;
+    font-weight: bold;
+}
+.titulo-total{
+    color: #cdcdcd;
+}
+.valor-total{
+    color: #59d57f;
+}
