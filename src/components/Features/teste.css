@@ -1,0 +1,71 @@
+body{
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+
+.tabelafeatures{
+    border: 2px solid lightgray;
+    border-radius: 20px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-family: arial, verdama, Helvetica;
+    color: gray;
+    align-self: center;
+    }
+  
+  .tabelafeatures__destaque{
+  text-align: left;
+  font-weight: bold;
+  color: black;
+  } 
+   
+  .tabelafeatures__destaque-vendedor{
+  font-weight: bold;
+  color: black;
+  padding:0;
+  margin: 0;
+  }
+  
+  .tabelafeatures__destaque-carro{
+  font-weight: bold;
+  padding:0;
+  margin: 0;
+  font-size: 0.90em;
+  color: black;
+  }
+  
+  .tabelafeatures__protocolo{
+    text-transform: uppercase;
+    color: black;
+    size: 0.9em;
+    }
+  
+  .tabelafeatures__itens{
+    font-weight: bold;
+    color: gray;  
+  }
+  
+  .teste{
+    height: 25px;
+  }
+  .borda{
+    border-bottom: 1px solid lightgray;
+  }
+  .button{
+    text-align: center;
+    background-color: green;
+    border-radius: 25px;
+    padding: 15px;
+    }
+  .button_link{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .modified{
+    background-color: gray;
+  }
+  .alinhamento{
+    text-align: center;
+  }
