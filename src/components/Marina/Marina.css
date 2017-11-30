@@ -1,0 +1,45 @@
+/* Estilo tabela */
+
+td{
+    padding-right: 40px;
+}
+
+.tabela {
+    box-sizing: border-box;
+    font: 100% sans-serif;
+    background-color: #efe;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    display:flex;
+  
+}
+
+.tabela__titulo{
+    color: gray;
+
+}
+
+.tabela__tabela--total{
+   border-top: 2px solid gray;
+   height: 40px;
+   padding-top: 50px;
+  
+}
+
+
+/* Estilo botão */
+
+.botao{
+    border:none;
+    border-radius: 20px;
+    width: 10%;
+    padding: 15px 30px;
+    color: white;
+    background:gray;
+  
+}
+
+.botao:first-child{
+  background:green;
+}
+
