@@ -60,7 +60,7 @@ var taxa={
 var subtotal= (servicos.servico4.qtde)*(servicos.servico4.price)+
 (servicos.servico3.qtde)*(servicos.servico3.price)+
 (servicos.servico2.qtde)*(servicos.servico2.price)+
-(servicos.servico1.qtde)*(servicos.servico1.price) + taxa.valor
+(servicos.servico1.qtde)*(servicos.servico1.price) 
 
 
 export default () => (

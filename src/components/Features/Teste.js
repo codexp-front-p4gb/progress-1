@@ -83,7 +83,7 @@ export default (props) => (
         <td></td>
         <td>Tax</td>
         <td></td>
-        <td className="alinhamento">$115.68</td>
+        <td className="alinhamento">${props.taxa.valor}</td>
         </tr>
         <tr>
         <td></td>
@@ -95,7 +95,7 @@ export default (props) => (
         <td></td>
         <td>TOTAL</td>
         <td></td>
-        <td className="alinhamento">$2097.68</td>
+        <td className="alinhamento">${props.subtotal+props.taxa.valor}</td>
         </tr>
         <tr>
         <td></td>
