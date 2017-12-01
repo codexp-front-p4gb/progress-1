@@ -30,7 +30,7 @@ var servicos={
   servico1:{
     descricao: "Tensioner",
     qtde: 1,
-    price: 45.00,    
+    price: 45,    
   },
 
   servico2:{
@@ -57,11 +57,16 @@ var taxa={
   valor:115.68
 } 
 
+var subtotal= (servicos.servico4.qtde)*(servicos.servico4.price)+
+(servicos.servico3.qtde)*(servicos.servico3.price)+
+(servicos.servico2.qtde)*(servicos.servico2.price)+
+(servicos.servico1.qtde)*(servicos.servico1.price) + taxa.valor
+
 
 export default () => (
   <div className="App">
     <Hero />
-    <Teste empresa={empresa} vendedor={vendedor} veiculo={veiculo} taxa={taxa}  servicos={servicos}/>
+    <Teste empresa={empresa} vendedor={vendedor} veiculo={veiculo} taxa={taxa}  servicos={servicos} subtotal={subtotal}/>
 
   </div>
 );

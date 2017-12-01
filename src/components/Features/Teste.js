@@ -39,30 +39,33 @@ export default (props) => (
         <td>Price</td>
         <td className="alinhamento">Amount</td>
         </tr>
+        
         <tr>
         <td>{props.servicos.servico1.descricao}</td>
-        <td>1</td>
-        <td>$45.00</td>
-        <td class="alinhamento">$45.00</td>
-        </tr>
-        <tr>
-        <td>Oil Filter</td>
-        <td>1</td>
-        <td>$103.00</td>
-        <td className="alinhamento">$103.00</td>
-        </tr>
-        <tr>
-        <td>Bilstein 5100 Shocks</td>
-        <td>4</td>
-        <td>$200.00</td>
-        <td className="alinhamento">$800.00</td>
+        <td>{props.servicos.servico1.qtde}</td>
+        <td>${props.servicos.servico1.price}</td>
+        <td class="alinhamento">$ {props.servicos.servico1.qtde*props.servicos.servico1.price}</td>
         </tr>
         
         <tr>
-        <td>Labour (per hour)</td>
-        <td>14</td>
-        <td>$70.00</td>
-        <td className="alinhamento">$980.00</td>
+        <td>{props.servicos.servico2.descricao}</td>
+        <td>{props.servicos.servico2.qtde}</td>
+        <td>${props.servicos.servico2.price}</td>
+        <td class="alinhamento">$ {props.servicos.servico2.qtde*props.servicos.servico2.price}</td>
+        </tr>
+
+        <tr>
+        <td>{props.servicos.servico3.descricao}</td>
+        <td>{props.servicos.servico3.qtde}</td>
+        <td>${props.servicos.servico3.price}</td>
+        <td class="alinhamento">$ {props.servicos.servico3.qtde*props.servicos.servico3.price}</td>
+        </tr>
+
+        <tr>
+        <td>{props.servicos.servico4.descricao}</td>
+        <td>{props.servicos.servico4.qtde}</td>
+        <td>${props.servicos.servico4.price}</td>
+        <td class="alinhamento">$ {props.servicos.servico4.qtde*props.servicos.servico4.price}</td>
         </tr>
         
         <tr>
@@ -73,7 +76,7 @@ export default (props) => (
         <td></td>
         <td>Subtotal</td>
         <td></td>
-        <td className="alinhamento">$1982.00</td>
+        <td className="alinhamento">${props.subtotal}</td>
         </tr>
         
         <tr>
