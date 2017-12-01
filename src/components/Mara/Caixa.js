@@ -31,7 +31,7 @@ export default (props) => (
                 <td className="item-tabela-de-precos">{props.services.service3.price}</td>
                 <td className="item-tabela-de-precos">{props.services.service3.qty * props.services.service3.price}</td>
             </tr>
-            <tr className="tabela-de-precos__linha">
+            <tr className="tabela-de-precos__linha borda">
                 <td className="item-tabela-de-precos">{props.services.service4.description}</td>
                 <td className="item-tabela-de-precos">{props.services.service4.qty}</td>
                 <td className="item-tabela-de-precos">{props.services.service4.price}</td>

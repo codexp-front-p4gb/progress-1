@@ -40,3 +40,6 @@
 .valor-total{
     color: #59d57f;
 }
+.borda{
+    border-bottom: 1px solid black;
+}
