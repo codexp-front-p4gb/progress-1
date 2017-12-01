@@ -11,7 +11,8 @@ import FollowTwitter from "./components/FollowTwitter/FollowTwitter";
 
 var empresa={
   razaoSocial:"Eurotech Motors, LLC",
-  endereco:"555, Water Towers Court<br>Holland, MT42942"
+  enderecoRua:"555, Water Towers Court",
+  enderecoPais: "Holland, MT42942"
 }
 
 var vendedor={
@@ -47,7 +48,7 @@ var servicos={
   servico4:{
     descricao: "Labour (per hour)",
     qtde: 14,
-    price: 70.00,    
+    price: 70.00    
   }
   
 }
@@ -60,7 +61,7 @@ var taxa={
 export default () => (
   <div className="App">
     <Hero />
-    <Teste empresa={empresa} vendedor={vendedor} veiculo={veiculo} taxa={taxa} />
+    <Teste empresa={empresa} vendedor={vendedor} veiculo={veiculo} taxa={taxa}  servicos={servicos}/>
 
   </div>
 );
